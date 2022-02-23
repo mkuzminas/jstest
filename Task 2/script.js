@@ -9,4 +9,4 @@ const btn__state = document.getElementById("btn__state");
 
 btn__element.onclick = function() {
     btn__state.innerText = parseInt(btn__state.innerText) + 1;
-}
+};
